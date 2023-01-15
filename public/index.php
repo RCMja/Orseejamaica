@@ -5,7 +5,7 @@ $menu__area="mainpage";
 $title="";
 $lang_icons_prepare=true;
 include "header.php";
-
+error_reporting(E_ALL);
 if ($proceed) {
     echo "<center><BR>";
     show_message();
